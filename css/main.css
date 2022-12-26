@@ -177,6 +177,99 @@ main h3 {
     font-weight: 500;
 }
 
+/*beginning contact form*/
+
+
+.contactForm {  min-height: 100vh; }
+
+.contactForm p {
+  font-size: 1.em;
+  margin-bottom: .5em;
+}
+
+form {
+  background-color: #fff;
+  border: solid 1px #666;
+  /* border-radius: 5px; */
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+fieldset {
+  padding: 1em;
+  margin-bottom: 1em;
+  /* border: solid 1px #E97D13; */
+  border-radius: 5px;
+ 
+}
+
+legend {  padding: .5em; }
+
+form li {
+  margin-bottom: .7em;
+  padding: .2em;
+}
+
+input[type="radio"]+label, input[type="checkbox"]+label { /*********ATTRIBUTE SELECTOR*******/
+  display: inline;
+  padding-right: .5em;
+}
+
+input, textarea, select{
+  padding: .5em;
+  font-family: 'Montserrat', sans-serif;
+  border: solid 1px #1161A2;
+  border-radius: 3px;
+  /* background-color: rgba(88, 169, 173, .2); */
+}
+
+.radio li {  display: inline-block; }
+
+.span {
+  padding-bottom: .5em;
+  display: block;
+}
+/* .phoneFormat {
+  display: block;
+  color: #666;
+  font-size: .8em;
+} */
+
+.rSign { font-size: 1.5em; }
+
+#message {
+  display: block;
+  width: 100%;
+  resize: none;
+  height: 200px;
+}
+
+#required {
+  color: black;
+  margin: 0;
+  padding: 0 0.2em 1em;
+  font-size: 1em;
+}
+
+#submit {
+  padding: 1em 10em;
+  font-size: .8em;
+  text-transform: uppercase;
+  color: white;
+  background-color:#B232BD;
+  display: block;
+  margin: auto;
+}
+
+#contactUs {
+  margin: 1em auto;
+  padding: 1em;
+  background-color: #9BA9D7;
+}
+
+/* end  contact form */
+
+
  /********************************************************
 ***********************************************************
      5. FOOTER
