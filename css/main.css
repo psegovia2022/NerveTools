@@ -28,13 +28,14 @@ html, body {
 **************************************************************/
 
  .container {
-    margin: 1.5em;
+    /* margin: 1.5em; */
     font: 20px 'Montserrat', sans-serif; 
  }
   header {
+    /* margin: 1em; */
     padding: .5em ;
     /* margin: 2.5em; */
-    background-color: #fff;
+    /* background-color: #fff; */
     /* color: #2937B7; */
     /* margin: 1em; */
   }
@@ -42,6 +43,7 @@ html, body {
   .logo {
     display: flex;
     flex-direction: row;
+    margin: .6em;
       /* width: 100%; */
   }
   
@@ -92,8 +94,9 @@ body { -webkit-animation: bugfix infinite 1s; }
   
   #nav label {
     display: block;
-    background:url(../images/mobile/nav-icon2.png)no-repeat right center ;
+    background:url(../images/mobile/navIcon.png)no-repeat right center ;
     margin-right: 1em;
+    margin-bottom: 2em;
     text-indent: -999em;
     cursor: pointer;
     -webkit-user-select: none;
@@ -116,7 +119,7 @@ body { -webkit-animation: bugfix infinite 1s; }
  
 
   main div {
-    /* margin: 1.5em; */
+    margin: 2em;
     padding: 1em 0;
     font-family: 'Source Sans Pro';
     line-height: 1.4em;
@@ -154,11 +157,17 @@ main h3 {
     gap: 3em;
     justify-content:space-around;
     margin-bottom: 2em;
+    /* margin: 0; */
 
 }
 
+div.descP , div.marcelo {
+  margin: 0;
+}
+
+
 .marcelo img {
-    margin-bottom: .5em;
+    margin-bottom: .4em;
 }
 .marcelo h3 {
     color:#B232BD;
@@ -177,8 +186,11 @@ main h3 {
     font-weight: 500;
 }
 
-/*beginning contact form*/
-
+ /********************************************************
+***********************************************************
+     5. CONTACT FORM
+***********************************************************
+**************************************************************/
 
 .contactForm {  min-height: 100vh; }
 
@@ -309,6 +321,63 @@ footer a:active {  color: #B232BD; }
     color: gray;
 }
 
+
+/* beginning Medium size screen*/
+
+@media screen and (min-width:601px) {
+
+  .navigation {
+    all: unset;
+    /* margin: 1.5em 1.5em; */
+  }
+
+  .navigation ul {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+
+  }
+  
+  #nav label {  display: none; }
+  
+ 
+  .navigation li{
+    padding: .4em;
+    border-bottom: none;
+    font-weight:400;
+    font-family: 'Montserrat', sans-serif;
+    }
+  
+  .navigation li:last-child {  border-bottom: none; }
+
+  header {
+    background-color: #c6ceea;
+  }
+
+  .description {
+    background-color: #dfe3f3;
+    padding: 2em;
+    margin: 4em;
+  }
+.grouping {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1.5em;
+  /* margin: 0; */
+}
+
+/* .about div, .DEI div {
+  margin: 0;
+padding: 0;}
+}  */
+
+div.about, div.DEI {
+  margin: 2em;
+}
+
+
+  
 
 /* article.description {
         background-color: #ada9aa;
