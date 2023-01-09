@@ -119,8 +119,8 @@ body { -webkit-animation: bugfix infinite 1s; }
  
 
   main div {
-    margin: 2em;
-    padding: 1em 0;
+    margin: 1.5em;
+    padding: .5em 0;
     font-family: 'Source Sans Pro';
     line-height: 1.4em;
     font-weight: 300;
@@ -130,21 +130,20 @@ body { -webkit-animation: bugfix infinite 1s; }
     color: #2848BE;
     font-size: 1.7em;
     font-weight: 400;
-    margin-bottom: .6em;
+    margin-bottom: .5em;
     line-height: 1.1em;
   }
 
 main h2 {
     /* color: #2848BE; */
     font-size: 1.3em;
-    margin-bottom: .6em;
+    margin-bottom: .5em;
     font-weight: 400;
 }
 
 main h3 {
     font-weight: bold;;
 }
-
 
 .products a, .description a {
     color:#B232BD;
@@ -156,15 +155,13 @@ main h3 {
     flex-wrap: wrap;
     gap: 3em;
     justify-content:space-around;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     /* margin: 0; */
-
 }
 
-div.descP , div.marcelo {
+/* div.descP , div.marcelo {
   margin: 0;
-}
-
+} */
 
 .marcelo img {
     margin-bottom: .4em;
@@ -186,6 +183,14 @@ div.descP , div.marcelo {
     font-weight: 500;
 }
 
+.DEI ul li::before {
+  content: "\2022"; 
+  color:#2937B7;
+  display: inline-block; 
+  width: 1.5em; 
+  margin-left: 1em; 
+} 
+
  /********************************************************
 ***********************************************************
      5. CONTACT FORM
@@ -195,7 +200,7 @@ div.descP , div.marcelo {
 .contactForm {  min-height: 100vh; }
 
 .contactForm p {
-  font-size: 1.em;
+  font-size: 1em;
   margin-bottom: .5em;
 }
 
@@ -212,7 +217,6 @@ fieldset {
   margin-bottom: 1em;
   /* border: solid 1px #E97D13; */
   border-radius: 5px;
- 
 }
 
 legend {  padding: .5em; }
@@ -279,9 +283,6 @@ input, textarea, select{
   background-color: #9BA9D7;
 }
 
-/* end  contact form */
-
-
  /********************************************************
 ***********************************************************
      5. FOOTER
@@ -290,7 +291,7 @@ input, textarea, select{
 
 footer {
     /* font-size: 4.5em; */
-    margin-top: 2.5em;
+    margin-top: 2em;
     color:#B232BD;
     /* background-color:#4BA2C2 ; */
     /* padding: 1.5em .5em; */
@@ -299,16 +300,15 @@ footer {
 
 footer a {
     color:#B232BD;
-    font-size: 1.3em;
+    font-size: 1.1em;
     text-transform: uppercase;
-    line-height: 1.5em;
+    line-height: 1.2em;
     font-weight:900;
 }
 
-
 footer a:hover {  color: #4BA2C2; }
 
-footer a:active {  color: #B232BD; }
+footer a:active {  color:#2937B7; }
 
 .contactInfo {
     /* color:#B232BD; */
