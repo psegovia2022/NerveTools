@@ -46,8 +46,10 @@
             <h1>Contact Us</h1>
             <p>For all enquiries, please email us using the form below. </p>
         
-            <form action="mailto:aguilarr_m@hotmail.com" method="get" id="contactUs" enctype="text/plain">
-              <fieldset class="personalInfo">
+            <form id="contactUs" action="mailto:aguilarr_m@hotmail.com" method="get" enctype="text/plain">
+              
+              <!-- replace all fieldset for div -->
+               <div class="personalInfo"> 
                 <legend>Your personal information</legend>
                 <ul>
                   <li>
@@ -68,9 +70,9 @@
                  
                 </ul>
         
-              </fieldset>
+              </div>
         
-              <fieldset>
+              <div>
               
                     <ul>   
                       <li>
@@ -79,11 +81,11 @@
                       </li>
                     </ul>
         
-              </fieldset>
+                  </div>
         
               <p id="required"> * indicates required field </p>
-        
-              <input type="submit" id="submit" value="Submit">
+        <!-- name attribute added to the submit input -->
+              <input type="submit" id="submit" name="submit" value="Submit">
             </form>
         
           <p>If you prefer to send us a direct message, our email address is:<a href="mailto:aguilarr_m@hotmail.com" class="email"> aguilarr_m@hotmail.com</a></p>
