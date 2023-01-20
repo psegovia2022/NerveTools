@@ -31,13 +31,9 @@ html, body {
     /* margin: 1.5em; */
     font: 'Montserrat', sans-serif; 
  }
-  header {
-    /* padding: .5em ; */
+  header {   
     background-color: #c6ceea;
     margin-bottom: 0;
-    /* margin: .6em 6em 0 6em; */
-    /* margin: 2.5em; */
-    /* background-color: #fff; */
     color: #2937B7;
   }
 
@@ -45,13 +41,11 @@ html, body {
     display: flex;
     flex-direction: row;
     margin: .6em .6em 0 .6em;
-      /* width: 100%; */
   }
   
   a {
     text-decoration: none;
     color: #2848BE;
-    /* font-weight: bolder; */
   }
 
    /********************************************************
@@ -74,8 +68,6 @@ html, body {
   font-weight:400;
   font-family: 'Montserrat', sans-serif;
   }
-
-/* .navigation li:last-child {  border-bottom: none; } */
 
 .navigation a {
   text-transform: uppercase;
@@ -121,7 +113,6 @@ main h2 {
 }
 
 main h3 {
-    /* font-weight: bold; */
     color:#2937B7;
     font-family: 'Montserrat';
     font-weight: 500;
@@ -142,7 +133,6 @@ article p {
 .products a, .description a {
     color:#B232BD;
     font-weight: 400;
-    /* margin: .5em .5em 1em .5em; */
 }
 
 .prodPic, .bigManip, .smallManip, .PCBs, .screws {
@@ -151,22 +141,21 @@ article p {
     gap: 0 2em;
     justify-content:space-around;
     margin-bottom: .5em;
-    /* margin: 0; */
 }
 
 #marceloPic {
   border-radius: 10em;
   border: solid 1px #2937B7;
 }
-.marcelo h4 {
-    text-transform:uppercase;
+
+.marcelo h2, .marcelo h3, .marcelo a {
+    margin: .2em 0 ;
 }
 
 .email {
-    color: #B232BD;
+    color: #2937B7;
     font-family: 'Montserrat';
     font-weight: 500;
-    margin: .5em .5em 1em .5em;
 }
 
 .DEI ul li::before {
@@ -193,7 +182,6 @@ article p {
 form {
   background-color: #fff;
   border: solid 1px #666;
-  /* border-radius: 5px; */
   padding: 1em;
   margin-bottom: 2em;
 }
@@ -201,7 +189,6 @@ form {
 fieldset {
   padding: 1em;
   margin-bottom: 1em;
-  /* border: solid 1px #E97D13; */
   border-radius: 5px;
 }
 
@@ -222,7 +209,6 @@ input, textarea, select{
   font-family: 'Montserrat', sans-serif;
   border: solid 1px #1161A2;
   border-radius: 3px;
-  /* background-color: rgba(88, 169, 173, .2); */
 }
 
 .radio li {  display: inline-block; }
@@ -231,11 +217,6 @@ input, textarea, select{
   padding-bottom: .5em;
   display: block;
 }
-/* .phoneFormat {
-  display: block;
-  color: #666;
-  font-size: .8em;
-} */
 
 .rSign { font-size: 1.5em; }
 
@@ -278,20 +259,14 @@ input, textarea, select{
 footer div {
     padding: 1em ;
     background-color: #c6ceea;
-    /* margin: 2.5em; */
     margin-top: 2em;
     color:#B232BD;
     font-family: 'Source Sans Pro';
-    /* padding: 1.5em .5em; */
-    /* max-width: 100vh; */
 }
 
 footer a {
     color:#B232BD;
-    /* font-size: 1.1em; */
-    /* text-transform: uppercase; */
     line-height: 1.5em;
-    /* font-weight:bold; */
 }
 
 footer a:hover {  color: #4BA2C2; }
@@ -305,14 +280,9 @@ footer a:active {  color:#2937B7; }
 }
 
 
-/* beginning Medium size screen*/
+/* beginning Medium and desktop size screen*/
 
 @media screen and (min-width:601px) {
-
-  /* .navigation { */
-    /* all: unset; */
-    /* margin: 1.5em 1.5em; */
-  /* } */
 
   .navigation ul {
     justify-content:flex-start;
@@ -322,11 +292,6 @@ footer a:active {  color:#2937B7; }
     margin-left: 2.5em;
     margin-right: 2.5em;
   }
-  /* .description {
-   /* border: solid 1px #dfe3f3; */ 
-    /* padding: 2.5em; */
-    /* margin: 2em; */
-  /* } */ 
  
   /*******ABOUT US HOME*********/
 .grouping2 {
@@ -350,108 +315,7 @@ footer a:active {  color:#2937B7; }
 
 .marcelo h2, .marcelo h3, .marcelo a {
   margin: .1em;
-  /* padding: .2em; */
 }
-/* .about div, .DEI div {
-  margin: 0;
-padding: 0;}
-}  */
-
-/* div.#about, div.DEI {
-  margin: 2em;
-} */
-
-
 }
-
-/* article.description {
-        background-color: #ada9aa;
-        padding: 2em;
-    
-  } */
-  /* .description p {
-      line-height: 1.4em;
-      font-size: 1.2em;
-    
-  } 
-
-  .description h1, .catalogo h1 {
-    font: 1.8em 'Roboto Condensed', sans-serif;
-    margin: .5em .5em .5em 0;
-    }
-
-    div.catalogo {
-        padding: 2em;
-    }
-
-.plasticParts, .PCBs, .screws {
-    border: solid 2px rgb(170, 163, 163);
-    border-radius: 5px;
-    padding: 2em;
-    margin: 1em;
-}
-
-.plasticParts h2, .PCBs h2, .screws h2 {
-    font: 2em 'Roboto Condensed', sans-serif;
-    margin: .5em .5em .5em 0;
-    font-weight: bold;
-    font-variant: small-caps;
-    }
-
-.plasticParts h3, .PCBs h3, .screws h3 {
-    font: 1.5em 'Roboto Condensed', sans-serif;
-    margin: 1em .5em .5em 0;
-    }
-
-
-.plasticParts h4, .PCBs h4, .screws h4 {
-    font: 1.2em 'Roboto Condensed', sans-serif;
-    margin: 2em .5em .5em 0;
-    }
-  
-
-
-div.container {
-    margin-top: 1em;
-    line-height: 1.4em;
-}
-
-div.containerBig {
-    padding-bottom: 1em;
-    border-bottom: solid 1px rgb(185, 179, 179);
-}
-
-img {
-    display: block;     
-}
-
-
-div.address {
-    line-height: 1.5em;
-    margin: 1em;
-    padding: 1em;
-} */
-/* Media queries for big screen */
-
-/* @media only screen and (min-width: 900px) { 
-    .logo {
-        display: flex;
-        justify-content: center; */
-        /* width: 50%; */
-    /* }
-
-    .containerBig, .containerSmall, .containerPcb, .containerScrew, .containerEIB, .containerFixture {
-        display:grid;
-        grid-template-columns:1fr 1fr 1fr;
-        grid-template-rows: 1fr*6;
-        gap: 2em;
-    }
-
-   .plasticParts p {
-    font-size: 1.2em;
-    line-height: 1.3em;
-   }
-    
-  
 
   
