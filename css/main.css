@@ -127,6 +127,10 @@ main h3 {
     font-weight: 500;
    
 }
+
+#catalogue {
+  color:#2937B7;
+}
  
 .marcelo h3 {
   margin: .5em .5em 1em .5em; 
@@ -318,11 +322,11 @@ footer a:active {  color:#2937B7; }
     margin-left: 2.5em;
     margin-right: 2.5em;
   }
-  .description {
-    background-color: #dfe3f3;
-    padding: 2em;
-    margin: 2em;
-  }
+  /* .description {
+   /* border: solid 1px #dfe3f3; */ 
+    /* padding: 2.5em; */
+    /* margin: 2em; */
+  /* } */ 
  
   /*******ABOUT US HOME*********/
 .grouping2 {
