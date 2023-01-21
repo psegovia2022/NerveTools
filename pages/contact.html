@@ -41,15 +41,25 @@
         </header>
       
         <main>
+
           <article class="contactForm">
 
-            <h1>Contact Us</h1>
-            <p>For all enquiries, please email us using the form below. </p>
-        
-            <form id="contactUs" action="mailto:aguilarr_m@hotmail.com" method="get" enctype="text/plain">
+           
+            <h1>We'd love to hear from you</h1>
+
+            <div id="simpleForm">
+            <p>If you have any questions or need help, please email us.</p>
+            <p>We look forward to hearing from you.</p>
+            <p >Email us at <a href="mailto:aguilarr_m@hotmail.com">aguilarr_m@hotmail.com</a></p>
+            </div>
+          </article>
+            
+            <!-- FORM using MAILTO is mixed content, it is a non-secure form because it targets an insecure endpoint 'mailto:aguilarr_m@hotmail.com'. I found a way to fix it using PHP. In the meantime, I'll change the CONTACT US page for a simple email contact info. -->
+<!-- 
+            <form id="contactUs" action="mailto:aguilarr_m@hotmail.com?subject=Mail from Nervetools" method="get" enctype="text/plain"> -->
               
               <!-- replace all fieldset for div -->
-               <div class="personalInfo"> 
+               <!-- <div class="personalInfo"> 
                 <legend>Your personal information</legend>
                 <ul>
                   <li>
@@ -83,14 +93,14 @@
         
                   </div>
         
-              <p id="required"> * indicates required field </p>
+              <p id="required"> * indicates required field </p> -->
         <!-- name attribute added to the submit input -->
-              <input type="submit" id="submit" name="submit" value="Submit">
+              <!-- <input type="submit" id="submit" name="submit" value="Submit">
             </form>
         
           <p>If you prefer to send us a direct message, our email address is:<a href="mailto:aguilarr_m@hotmail.com" class="email"> aguilarr_m@hotmail.com</a></p>
           </article>
-        
+         -->
   
         </main>
     

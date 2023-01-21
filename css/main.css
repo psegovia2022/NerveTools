@@ -170,8 +170,22 @@ article p {
 ***********************************************************
 **************************************************************/
 
-.contactForm {  min-height: 100vh; }
+.contactForm {  
+  min-height: 100vh;
+ }
 
+ #simpleForm {
+  margin: auto ;
+  margin-top: 3em;
+  padding: 1.5em;
+  border: solid 2px #2937B7;
+  border-radius: 10px;
+  min-width: 200px;
+  max-width: 350px;
+ }
+
+
+/*
 .contactForm p {
   font-size: 1em;
   margin-bottom: .5em;
@@ -197,8 +211,8 @@ form li {
   padding: .2em;
 }
 
-input[type="radio"]+label, input[type="checkbox"]+label { /*********ATTRIBUTE SELECTOR*******/
-  display: inline;
+input[type="radio"]+label, input[type="checkbox"]+label { ********ATTRIBUTE SELECTOR****** */
+  /* display: inline;
   padding-right: .5em;
 }
 
@@ -246,7 +260,7 @@ input, textarea, select{
   margin: 1em auto;
   padding: 1em;
   background-color: #9BA9D7;
-}
+} */
 
  /********************************************************
 ***********************************************************
