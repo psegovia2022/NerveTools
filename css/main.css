@@ -10,7 +10,7 @@ html, body {
   }
   body {
     font-family: 'Montserrat', sans-serif;
-    max-width: 1400px;
+    max-width: 1800px;
     margin: auto;
     min-height: 100vh;
   }
@@ -92,6 +92,7 @@ html, body {
     font-family: 'Source Sans Pro';
     line-height: 1.4em;
     font-weight: 300;
+    max-width: 800px;
   }
 
  main h1 {
@@ -298,15 +299,16 @@ footer a:active {  color:#2937B7; }
 
 main {
   font-size: 1.2em;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
 }
   .navigation ul {
     justify-content:flex-start;
   }
-
-  main {
-    margin-left: 2.5em;
-    margin-right: 2.5em;
-  }
+ main article {
+  margin: auto;
+  margin-top: 2em;
+ }
  
   /*******ABOUT US HOME*********/
 .grouping2 {
