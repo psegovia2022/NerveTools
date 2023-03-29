@@ -18,6 +18,7 @@ html, body {
   img {
     max-width: 100%;
     height: auto;
+    
   }
   
   /********************************************************
@@ -145,6 +146,7 @@ article p {
 #marceloPic {
   border-radius: 10em;
   border: solid 1px #2937B7;
+  max-width: 40%;
 }
 
 .marcelo h2, .marcelo h3, .marcelo a {
@@ -277,6 +279,11 @@ footer div {
     font-family: 'Source Sans Pro';
 }
 
+#paulina {
+  color: #2937B7;
+  margin-top: 1em;
+  font-size: 1em;
+}
 footer a {
     color:#B232BD;
     line-height: 1.5em;
@@ -287,9 +294,10 @@ footer a:hover {  color: #4BA2C2; }
 footer a:active {  color:#2937B7; }
 
 .copy {
-    font-size: .8em;
+    font-size: .9em;
     color: gray;
     line-height: 2em;
+    margin-top: 1em;
 }
 
 
